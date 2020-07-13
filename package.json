@@ -1,0 +1,22 @@
+{
+  "name": "coronavirus_dev.f",
+  "version": "1.0.0",
+  "description": "Proyecto Dev.f - CoronaVirus Landing Page",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JulianP911/CoronaVirus_Dev.f.git"
+  },
+  "keywords": [
+    "CoronaVirus"
+  ],
+  "author": "Julian Padilla Molina",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JulianP911/CoronaVirus_Dev.f/issues"
+  },
+  "homepage": "https://github.com/JulianP911/CoronaVirus_Dev.f#readme"
+}
