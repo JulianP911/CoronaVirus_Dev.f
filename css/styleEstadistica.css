@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400&family=Open+Sans:wght@600&display=swap');
+
+.nombreLogo{
+    font-size: 1.4rem;
+    font-family: 'Hind Siliguri', sans-serif;
+    margin-left: -10px;
+}
+
+.contenido{
+    margin-top: 85px;
+}
+
+body{
+    font-family: 'Hind Siliguri', sans-serif;
+}
+
+.titulos{
+    letter-spacing: 2px;
+}
+
+.piePagina{
+    height: 130px;
+}

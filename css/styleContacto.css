@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400&family=Open+Sans:wght@600&display=swap');
+
+.nombreLogo{
+    font-size: 1.4rem;
+    font-family: 'Hind Siliguri', sans-serif;
+    margin-left: -10px;
+}
+
+.nombreLogo2{
+    font-size: 2rem;
+    font-family: 'Hind Siliguri', sans-serif;
+    letter-spacing: 0.4rem;
+}
+
+.logo{
+    margin-left: -15px;
+}
+
+.formulario{
+    margin-top: 60px;
+    height: 70%;
+}
+
+.formularioDatos{
+    font-family: 'Hind Siliguri', sans-serif;
+    width: 70%;
+    margin-top: 30px;
+}
+
+.piePagina{
+    height: 130px;
+}
