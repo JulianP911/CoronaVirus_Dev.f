@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--Requeridas meta tags-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Bootstrap CSS-->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <!--Estilo personalizado index-->
+    <link rel="stylesheet" href="./css/styleContacto.css">
+    <!--Font Awesome-->
+    <script defer src="https://pro.fontawesome.com/releases/v5.10.0/js/all.js" integrity="sha384-G/ZR3ntz68JZrH4pfPJyRbjW+c0+ojii5f+GYiYwldYU69A+Ejat6yIfLSxljXxD" crossorigin="anonymous"></script>
+    <title>CoronaWeb Contacto</title>
+</head>
+<body class="bg-light">
+    <!--Barra principal de la pagina web-->
+    <div class="navbar navbar-dark bg-dark fixed-top navbar-expand-md">
+        <a class="navbar-brand" href="./index.html"><img src="./assets/imgs/Icono-Coronavirus.png" width="35px" height="35px" class="d-inline-block align-top"/></i></a>
+        <a class="navbar-brand text-light font-weight-normal nombreLogo" href="./index.html">CoronaWeb</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarToggleExternalContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item"><a href="#" class="nav-link">Noticias</a></li>
+                <li class="nav-item"><a href="./estadisticas.html" class="nav-link">Estadisticas</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Avances</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Patología</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Prevención</a></li>
+            </ul>
+            <div>
+                <a href="./contacto.html"><button type="button" class="btn btn-outline-light">Información / Contacto</button></a>
+            </div>
+        </div>
+    </div>
+    <!--Formulario de contacto con los usuarios-->
+    <main class="formulario bg-light">
+        <div class="container d-flex flex-column justify-content-center text-center" style="width: 70%;">
+            <div>
+                <div class="logo">
+                    <a class="navbar-brand" href="./index.html"><img src="./assets/imgs/Icono-Coronavirus.png" width="80px" height="80px"/></i></a>
+                </div>          
+                <div>
+                    <a class="navbar-brand font-weight-normal text-dark nombreLogo2" href="#">CoronaWeb</a>
+                </div>   
+                <div>
+                    <p class="lead">El siguiente formulario te permitirá recibir las ultimas actualizaciones y recomendaciones, asimismo, informar si presentas sintomas para llevar el proceso.</p>
+                </div>
+            </div>
+        </div>
+        <div class="container formularioDatos">
+            <form>
+                <div class="form-group">
+                    <div class="form-row">
+                        <div class="col">
+                            <label for="nombre">Nombre</label>
+                            <input type="text" class="form-control" id="nombre" aria-describedby="nombre" placeholder="Ingrese su nombre">
+                        </div>
+                        <div class="col">
+                            <label for="apellido1">Primer Apellido</label>
+                            <input type="text" class="form-control" id="apellido1" aria-describedby="primer apellido" placeholder="Ingrese su primer apellido">
+                        </div>
+                        <div class="col">
+                            <label for="apellido2">Segundo Apellido</label>
+                            <input type="text" class="form-control" id="apellido2" aria-describedby="segundo apellido" placeholder="Ingrese su segundo apellido">
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="form-row">
+                        <div class="col">
+                            <label for="email">Email</label>
+                            <input type="email" class="form-control" id="email" placeholder="Ingrese su email">
+                            <small id="emailHelp" class="form-text text-muted">Recuerde que por este medio recibirá las notificaciones.</small>
+                        </div>
+                        <div class="col">
+                            <label for="emailCon">Confirmacion Email</label>
+                            <input type="email" class="form-control" id="emailCon" placeholder="Ingrese su email nuevamente">
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="form-row">
+                        <div class="col-sm-9">
+                            <label for="direccion">Dirección</label>
+                            <input type="text" class="form-control" id="direccion" placeholder="Ingrese su dirección">
+                        </div>
+                        <div class="form-group col-sm-3">
+                            <label for="departamento">País</label>
+                            <select id="departamento" class="form-control">
+                                <option selected>Selecionar...</option>
+                                <option>Mexico</option>
+                                <option>Colombia</option>
+                                <option>Salvador</option>
+                                <option>Argentina</option>
+                                <option>Costa rica</option>
+                                <option>Chile</option>
+                                <option>Uruguay</option>
+                                <option>Panama</option>
+                                <option>Honduras</option>
+                                <option>Perú</option>
+                                <option>Ecuador</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                          <label for="ciudad">Ciudad</label>
+                          <input type="text" class="form-control" id="ciudad" placeholder="Ingrese su ciudad"> 
+                        </div>
+                        <div class="form-group col-md-2">
+                          <label for="inputZip">Zip</label>
+                          <input type="text" class="form-control" id="inputZip" placeholder="Zip">
+                        </div>
+                        <div class="form-group col-md-4">
+                            <label for="telefono">Número Teléfonico</label>
+                            <input type="text" class="form-control" id="telefono" placeholder="Teléfono">
+                          </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" id="sintoma">
+                      <label class="form-check-label" for="sintoma">Presenta sintomas relacionados al Covid-19</label>
+                    </div>
+                    <div class="form-check">
+                        <input type="checkbox" class="form-check-input" id="terminos">
+                        <label class="form-check-label" for="terminos">Acepta terminos y condiciones de CoronaWeb</label>
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-dark">Enviar Información</button>
+            </form>
+        </div>
+    </main>
+     <!--Pie de pagina con la secciones de contacto y redes sociales-->
+     <footer class="bg-dark piePagina mt-4">
+        <div class="container">
+            <div class="row d-flex justify-content-between align-items-center">
+                <div class="col-6 d-flex flex-column mt-5">
+                    <ul class="list-inline mb-2">
+                        <li class="list-inline-item"><a href="#" class="text-white">Acerca de Nosotros</a></li>
+                        <li class="list-inline-item">⋅</li>
+                        <li class="list-inline-item"><a href="#" class="text-white">Contacto</a></li>
+                        <li class="list-inline-item">⋅</li>
+                        <li class="list-inline-item"><a href="#" class="text-white">Terminos</a></li>
+                        <li class="list-inline-item">⋅</li>
+                        <li class="list-inline-item"><a href="#" class="text-white">Politica de Privacidad</a></li>
+                    </ul>
+                    <span class="font-weight-lighter pie text-white">© Julian Padilla Website 2020. Todos los derechos reservados.</span>
+                </div>
+                <div class="col-mt-5">
+                    <ul class="list-inline mb-2">
+                        <li class="list-inline-item"><a href="#" class="text-white"><i class="fab fa-facebook fa-2x fa-fw"></i></a></li>
+                        <li class="list-inline-item"><a href="#" class="text-white"><i class="fab fa-twitter-square fa-2x fa-fw"></i></a></li>
+                        <li class="list-inline-item"><a href="#" class="text-white"><i class="fab fa-instagram fa-2x fa-fw"></i></a></li>
+                        <li class="list-inline-item"><a href="#" class="text-white"><i class="fab fa-github-square fa-2x fa-fw"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--Opcional JavaScript-->
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/popper.js/dist/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+</html>

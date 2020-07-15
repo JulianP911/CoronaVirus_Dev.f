@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--Requeridas meta tags-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Bootstrap CSS-->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <!--Estilo personalizado index-->
+    <link rel="stylesheet" href="./css/styleEstadistica.css">
+    <!--Font Awesome-->
+    <script defer src="https://pro.fontawesome.com/releases/v5.10.0/js/all.js" integrity="sha384-G/ZR3ntz68JZrH4pfPJyRbjW+c0+ojii5f+GYiYwldYU69A+Ejat6yIfLSxljXxD" crossorigin="anonymous"></script>
+    <title>CoronaWeb Estadisticas</title>
+</head>
+<body class="bg-light">
+    <!--Barra principal de la pagina web-->
+    <div class="navbar navbar-dark bg-dark fixed-top navbar-expand-md">
+        <a class="navbar-brand" href="./index.html"><img src="./assets/imgs/Icono-Coronavirus.png" width="35px" height="35px" class="d-inline-block align-top"/></i></a>
+        <a class="navbar-brand text-light font-weight-normal nombreLogo" href="./index.html">CoronaWeb</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarToggleExternalContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item"><a href="#" class="nav-link">Noticias</a></li>
+                <li class="nav-item"><a href="#" class="nav-link active">Estadisticas</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Avances</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Patología</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Prevención</a></li>
+            </ul>
+            <div>
+                <a href="./contacto.html"><button type="button" class="btn btn-outline-light">Información / Contacto</button></a>
+            </div>
+        </div>
+    </div>
+    <main class="bg-ligth contenido" id="main">
+        <div class="container ruta">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb breadcrumb-dividers-label shadow bg-dark">
+                  <li class="breadcrumb-item"><a href="#" class="text-white">Corona Web</a></li>
+                  <li class="breadcrumb-item"><a href="./index.html" class="text-white">Principal</a></li>
+                  <li class="breadcrumb-item"><a href="./estadisticas.html" class="text-white">Estadisticas</a></li>
+                </ol>
+            </nav>
+        </div>
+        <div class="container ">
+            <div class="table-responsive">
+                <table class="table table-striped table-bordered">
+                    <thead class="rounded">
+                        <tr class="text-center bg-dark titulos font-weight-normal" style="color: white;">
+                          <th scope="col">#</th>
+                          <th scope="col">País</th>
+                          <th scope="col">Confirmados</th>
+                          <th scope="col">Muertos</th>
+                          <th scope="col">Recuperados</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tablaCo"></tbody>
+                </table>
+            </div>
+        </div>
+    </main>
+     <!--Pie de pagina con la secciones de contacto y redes sociales-->
+     <footer class="bg-dark piePagina mt-4">
+        <div class="container">
+            <div class="row d-flex justify-content-between align-items-center">
+                <div class="col-6 d-flex flex-column mt-5">
+                    <ul class="list-inline mb-2">
+                        <li class="list-inline-item"><a href="#" class="text-white">Acerca de Nosotros</a></li>
+                        <li class="list-inline-item">⋅</li>
+                        <li class="list-inline-item"><a href="#" class="text-white">Contacto</a></li>
+                        <li class="list-inline-item">⋅</li>
+                        <li class="list-inline-item"><a href="#" class="text-white">Terminos</a></li>
+                        <li class="list-inline-item">⋅</li>
+                        <li class="list-inline-item"><a href="#" class="text-white">Politica de Privacidad</a></li>
+                    </ul>
+                    <span class="font-weight-lighter pie text-white">© Julian Padilla Website 2020. Todos los derechos reservados.</span>
+                </div>
+                <div class="col-mt-5">
+                    <ul class="list-inline mb-2">
+                        <li class="list-inline-item"><a href="#" class="text-white"><i class="fab fa-facebook fa-2x fa-fw"></i></a></li>
+                        <li class="list-inline-item"><a href="#" class="text-white"><i class="fab fa-twitter-square fa-2x fa-fw"></i></a></li>
+                        <li class="list-inline-item"><a href="#" class="text-white"><i class="fab fa-instagram fa-2x fa-fw"></i></a></li>
+                        <li class="list-inline-item"><a href="#" class="text-white"><i class="fab fa-github-square fa-2x fa-fw"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--Scripts de JavaScript-->
+    <script src="./js/estadisticas.js"></script>
+    <!--Opcional JavaScript-->
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/popper.js/dist/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
