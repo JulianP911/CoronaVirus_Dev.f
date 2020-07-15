@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--Requeridas meta tags-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Bootstrap CSS-->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <!--Estilo personalizado index-->
+    <link rel="stylesheet" href="./css/styleEstadistica.css">
+    <!--Font Awesome-->
+    <script defer src="https://pro.fontawesome.com/releases/v5.10.0/js/all.js" integrity="sha384-G/ZR3ntz68JZrH4pfPJyRbjW+c0+ojii5f+GYiYwldYU69A+Ejat6yIfLSxljXxD" crossorigin="anonymous"></script>
+    <title>CoronaWeb Noticias</title>
+</head>
+<body class="bg-light">
+    <!--Barra principal de la pagina web-->
+    <div class="navbar navbar-dark bg-dark fixed-top navbar-expand-md">
+        <a class="navbar-brand" href="./index.html"><img src="./assets/imgs/Icono-Coronavirus.png" width="35px" height="35px" class="d-inline-block align-top"/></i></a>
+        <a class="navbar-brand text-light font-weight-normal nombreLogo" href="./index.html">CoronaWeb</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarToggleExternalContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active"><a href="#" class="nav-link">Noticias</a></li>
+                <li class="nav-item"><a href="./estadisticas.html" class="nav-link">Estadisticas</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Avances</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Patología</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Prevención</a></li>
+            </ul>
+            <div>
+                <a href="./contacto.html"><button type="button" class="btn btn-outline-light">Información / Contacto</button></a>
+            </div>
+        </div>
+    </div>
+    <main class="bg-ligth contenido" id="main">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-8 mb-3">
+                    <div class="d-flex flex-row justify-content-between align-items-end">
+                        <div>
+                            <h5>Covid-19</h5>
+                            <h3>Noticias de Último Minuto</h3>
+                        </div>
+                        <div>
+                            <a href="#" class="text-dark"><span>Unidad de Redacción</span></a>
+                        </div>
+                    </div>
+                    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner rounded">
+                        <div class="carousel-item active fotoCarusel">
+                            <img src="./assets/imgs/Noticia1.jpg" class="d-block w-100" alt="Corona 1">
+                        </div>
+                        <div class="carousel-item fotoCarusel">
+                            <img src="./assets/imgs/Noticia2.jpg" class="d-block w-100" alt="Corona 2">
+                        </div>
+                        <div class="carousel-item fotoCarusel">
+                            <img src="./assets/imgs/Noticia3.jpg" class="d-block w-100" alt="Corona 3">
+                        </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                    <div class="noticias mt-3">
+                        <a href="#" class="text-body" style="text-decoration:none;"><h3>El Director General de la OMS llama al G20 a luchar, unirse e innovar contra la COVID-19</h3></a>
+                        <small>6 de marzo de 2020 | Comunicado de prensa</small>
+                        <hr>
+                        <p class="text-justify">El Dr. Tedros Adhanom Ghebreyesus, Director General de la Organización Mundial de la Salud, se dirigió a los Jefes de Estado en la Cumbre extraordinaria de Líderes del G20 celebrada hoy y centrada en la COVID-19.  «Se han reunido para hacer frente a la crisis sanitaria decisiva de nuestro tiempo: estamos en guerra contra un virus que amenaza destrozarnos si se lo permitimos», declaró.</p>
+                        <p class="text-justify">Celebró la iniciativa del G20 de buscar soluciones conjuntas y trabajar juntos: «Esta es una crisis mundial que exige una respuesta mundial».</p>
+                        <a href="#" class="text-dark" style="text-decoration:none;"><span>ver mas</span></a>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="d-flex flex-column">
+                        <div class="noticias">
+                            <h6><a href="#" class="text-dark">Salud</a><small> 12:54</small></h6>
+                            <a href="#" class="text-body" style="text-decoration:none;"><h4>Inmunidad ante covid 19 puede desaparecer al cabo de meses</h4></a>
+                            <span>Estudio afirmaría que los pacientes que superaron la enfermedad podrían perder la inmunidad.</span>
+                            <hr>
+                        </div>
+                        <div class="noticias">
+                            <h6><a href="#" class="text-dark">Política</a><small> 4:10</small></h6>
+                            <a href="#" class="text-body" style="text-decoration:none;"><h4>'Ahora nos escuchan y están dejando a un lado la indisciplina’</h4></a>
+                            <span>El propósito es salvar vidas, es por eso que se han entregado más de 1’500.000 de tapabocas.</span>
+                            <hr>
+                        </div>
+                        <div class="noticias">
+                            <h6><a href="#" class="text-dark">Tecnología</a><small> 10:32</small></h6>
+                            <a href="#" class="text-body" style="text-decoration:none;"><h4>Política de espectro al 2024 quiere agilizar asignaciones</h4></a>
+                            <span>La Agencia Nacional del Espectro presentó su propuesta para alinearse a esfuerzos del Mintic.</span>
+                            <hr>
+                        </div>
+                        <div class="noticias">
+                            <h6><a href="#" class="text-dark">Internacional</a><small> 12:29</small></h6>
+                            <a href="#" class="text-body" style="text-decoration:none;"><h4>Últimas noticias sobre el coronavirus en el mundo</h4></a>
+                            <span>En las últimas horas, el planeta superó los 13 millones de contagios por covid-19.</span>
+                            <hr>
+                        </div>
+                        <div class="noticias">
+                            <h6><a href="#" class="text-dark">Anuncio Patrocinado</a><small> 9:54</small></h6>
+                            <a href="#" class="text-body" style="text-decoration:none;"><h4>Tapabocas N95 por Wabbu</h4></a>
+                            <span>La mejor innovación y calidad.</span>
+                            <hr>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container ruta">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb breadcrumb-dividers-label shadow bg-dark">
+                  <li class="breadcrumb-item"><a href="#" class="text-white">Corona Web</a></li>
+                  <li class="breadcrumb-item"><a href="./index.html" class="text-white">Principal</a></li>
+                  <li class="breadcrumb-item"><a href="./estadisticas.html" class="text-white">Noticias</a></li>
+                </ol>
+            </nav>
+        </div>
+        <div class="container">
+            <div class="d-flex flex-wrap justify-content-center ml-4">
+                <div class="col-sm-4 mt-4">
+                    <div class="card" style="width: 18rem;">
+                        <img src="./assets/imgs/Card1.jpg" class="card-img-top" alt="Causante Covid" width="100px" height="180px">
+                        <div class="card-body">
+                          <h5 class="card-title"><b>Salud</b><small class="ml-2"> John Kinnear</small></h5>
+                          <p class="card-text text-justify">Qué se sabe del daño que el covid-19 puede causar en los pacientes asintomáticos.</p>
+                          <div class="d-flex justify-content-between align-items-center">
+                            <a href="https://www.bbc.com/mundo/noticias-53403871" class="btn btn-dark">Ver más</a>
+                            <small class="text-muted">9 mins</small>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 mt-4">
+                    <div class="card" style="width: 18rem;">
+                        <img src="./assets/imgs/Card2.jpg" class="card-img-top" alt="Covid" width="100px" height="180px">
+                        <div class="card-body">
+                          <h5 class="card-title"><b>Política</b><small class="ml-2"> Jack Goodman</small></h5>
+                          <p class="card-text text-justify">Los medicamentos sin eficacia probada contra el coronavirus que se promueven en América Latina.</p>
+                          <div class="d-flex justify-content-between align-items-center">
+                            <a href="https://www.bbc.com/mundo/noticias-53403871" class="btn btn-dark">Ver más</a>
+                            <small class="text-muted">13 mins</small>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 mt-4">
+                    <div class="card" style="width: 18rem;">
+                        <img src="./assets/imgs/Card3.jpg" class="card-img-top" alt="contagios" width="100px" height="180px">
+                        <div class="card-body">
+                          <h5 class="card-title"><b>Internacional</b><small class="ml-2"> Lioman Lima</small></h5>
+                          <p class="card-text text-justify">4 motivos de preocupación en Miami, el nuevo epicentro de la pandemia de coronavirus en EE.UU.</p>
+                          <div class="d-flex justify-content-between align-items-center">
+                            <a href="https://www.bbc.com/mundo/noticias-internacional-53358346" class="btn btn-dark">Ver más</a>
+                            <small class="text-muted">30 mins</small>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 mt-5">
+                    <div class="card" style="width: 18rem;">
+                        <img src="./assets/imgs/Card4.jpg" class="card-img-top" alt="tecnología" width="100px" height="180px">
+                        <div class="card-body">
+                          <h5 class="card-title"><b>Tecnología</b><small class="ml-2"> Leo Kelion</small></h5>
+                          <p class="card-text text-justify">Adiós a Intel y otras 8 novedades anunciadas por Apple Company en wwdc respecto al Covid-19.</p>
+                          <div class="d-flex justify-content-between align-items-center">
+                            <a href="https://www.bbc.com/mundo/noticias-53145607" class="btn btn-dark">Ver más</a>
+                            <small class="text-muted">48 mins</small>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 mt-5">
+                    <div class="card" style="width: 18rem;">
+                        <img src="./assets/imgs/Card5.jpg" class="card-img-top" alt="cultura" width="100px" height="180px">
+                        <div class="card-body">
+                          <h5 class="card-title"><b>Cultura</b><small class="ml-2"> Sophie Hardach</small></h5>
+                          <p class="card-text text-justify">Banksy regresa al metro de Londres inspirado por el coronavirus con su nueva obra.</p>
+                          <div class="d-flex justify-content-between align-items-center">
+                            <a href="https://www.bbc.com/mundo/noticias-53412897" class="btn btn-dark">Ver más</a>
+                            <small class="text-muted">57 mins</small>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 mt-5">
+                    <div class="card" style="width: 18rem;">
+                        <img src="./assets/imgs/Card6.jpg" class="card-img-top" alt="Economía" width="100px" height="180px">
+                        <div class="card-body">
+                          <h5 class="card-title"><b>Economía</b><small class="ml-2"> Cristina J. Orgaz</small></h5>
+                          <p class="card-text text-justify">Los ultrarricos que piden a sus gobiernos pagar más impuestos por la crisis de coronavirus.</p>
+                          <div class="d-flex justify-content-between align-items-center">
+                            <a href="https://www.bbc.com/mundo/noticias-53407050" class="btn btn-dark">Ver Más</a>
+                            <small class="text-muted">72 mins</small>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+     <!--Pie de pagina con la secciones de contacto y redes sociales-->
+     <footer class="bg-dark piePagina mt-4">
+        <div class="container">
+            <div class="row d-flex justify-content-between align-items-center">
+                <div class="col-6 d-flex flex-column mt-5">
+                    <ul class="list-inline mb-2">
+                        <li class="list-inline-item"><a href="#" class="text-white">Acerca de Nosotros</a></li>
+                        <li class="list-inline-item">⋅</li>
+                        <li class="list-inline-item"><a href="#" class="text-white">Contacto</a></li>
+                        <li class="list-inline-item">⋅</li>
+                        <li class="list-inline-item"><a href="#" class="text-white">Terminos</a></li>
+                        <li class="list-inline-item">⋅</li>
+                        <li class="list-inline-item"><a href="#" class="text-white">Politica de Privacidad</a></li>
+                    </ul>
+                    <span class="font-weight-lighter pie text-white">© Julian Padilla Website 2020. Todos los derechos reservados.</span>
+                </div>
+                <div class="col-mt-5">
+                    <ul class="list-inline mb-2">
+                        <li class="list-inline-item"><a href="#" class="text-white"><i class="fab fa-facebook fa-2x fa-fw"></i></a></li>
+                        <li class="list-inline-item"><a href="#" class="text-white"><i class="fab fa-twitter-square fa-2x fa-fw"></i></a></li>
+                        <li class="list-inline-item"><a href="#" class="text-white"><i class="fab fa-instagram fa-2x fa-fw"></i></a></li>
+                        <li class="list-inline-item"><a href="#" class="text-white"><i class="fab fa-github-square fa-2x fa-fw"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--Scripts de JavaScript-->
+    <script src="./js/estadisticas.js"></script>
+    <!--Opcional JavaScript-->
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/popper.js/dist/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
