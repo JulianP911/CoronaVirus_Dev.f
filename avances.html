@@ -7,7 +7,7 @@
     <!--Bootstrap CSS-->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <!--Estilo personalizado index-->
-    <link rel="stylesheet" href="./css/styleEstadistica.css">
+    <link rel="stylesheet" href="./css/styleAvance.css">
     <!--Font Awesome-->
     <script defer src="https://pro.fontawesome.com/releases/v5.10.0/js/all.js" integrity="sha384-G/ZR3ntz68JZrH4pfPJyRbjW+c0+ojii5f+GYiYwldYU69A+Ejat6yIfLSxljXxD" crossorigin="anonymous"></script>
     <title>CoronaWeb Noticias</title>
@@ -22,210 +22,216 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarToggleExternalContent">
             <ul class="navbar-nav mr-auto">
-                <li class="nav-item active"><a href="#" class="nav-link">Noticias</a></li>
+                <li class="nav-item"><a href="./noticias.html" class="nav-link">Noticias</a></li>
                 <li class="nav-item"><a href="./estadisticas.html" class="nav-link">Estadisticas</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Avances</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Patología</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Prevención</a></li>
+                <li class="nav-item active"><a href="#" class="nav-link">Avances</a></li>
+                <li class="nav-item"><a href="./patologia.html" class="nav-link">Patología</a></li>
+                <li class="nav-item"><a href="./prevencion.html" class="nav-link">Prevención</a></li>
             </ul>
             <div>
                 <a href="./contacto.html"><button type="button" class="btn btn-outline-light">Información / Contacto</button></a>
             </div>
         </div>
     </div>
-    <main class="bg-ligth contenido" id="main">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-8 mb-3">
-                    <div class="d-flex flex-row justify-content-between align-items-end">
-                        <div>
-                            <h5>Covid-19</h5>
-                            <h3>Noticias de Último Minuto</h3>
-                        </div>
-                        <div>
-                            <a href="#" class="text-dark"><span>Unidad de Redacción</span></a>
-                        </div>
-                    </div>
-                    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                    <ol class="carousel-indicators">
-                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                    </ol>
-                    <div class="carousel-inner rounded">
-                        <div class="carousel-item active fotoCarusel">
-                            <img src="./assets/imgs/Noticia1.jpg" class="d-block w-100" alt="Corona 1">
-                        </div>
-                        <div class="carousel-item fotoCarusel">
-                            <img src="./assets/imgs/Noticia2.jpg" class="d-block w-100" alt="Corona 2">
-                        </div>
-                        <div class="carousel-item fotoCarusel">
-                            <img src="./assets/imgs/Noticia3.jpg" class="d-block w-100" alt="Corona 3">
-                        </div>
-                        </div>
-                        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="sr-only">Previous</span>
-                        </a>
-                        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="sr-only">Next</span>
-                        </a>
-                    </div>
-                    <div class="noticias mt-3">
-                        <a href="#" class="text-body" style="text-decoration:none;"><h3>El Director General de la OMS llama al G20 a luchar, unirse e innovar contra la COVID-19</h3></a>
-                        <small>6 de marzo de 2020 | Comunicado de prensa</small>
-                        <hr>
-                        <p class="text-justify">El Dr. Tedros Adhanom Ghebreyesus, Director General de la Organización Mundial de la Salud, se dirigió a los Jefes de Estado en la Cumbre extraordinaria de Líderes del G20 celebrada hoy y centrada en la COVID-19.  «Se han reunido para hacer frente a la crisis sanitaria decisiva de nuestro tiempo: estamos en guerra contra un virus que amenaza destrozarnos si se lo permitimos», declaró.</p>
-                        <p class="text-justify">Celebró la iniciativa del G20 de buscar soluciones conjuntas y trabajar juntos: «Esta es una crisis mundial que exige una respuesta mundial».</p>
-                        <a href="#" class="text-dark" style="text-decoration:none;"><span>ver mas</span></a>
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="d-flex flex-column">
-                        <div class="noticias">
-                            <h6><a href="#" class="text-dark">Salud</a><small> 12:54</small></h6>
-                            <a href="#" class="text-body" style="text-decoration:none;"><h4>Inmunidad ante covid 19 puede desaparecer al cabo de meses</h4></a>
-                            <span>Estudio afirmaría que los pacientes que superaron la enfermedad podrían perder la inmunidad.</span>
-                            <hr>
-                        </div>
-                        <div class="noticias">
-                            <h6><a href="#" class="text-dark">Política</a><small> 4:10</small></h6>
-                            <a href="#" class="text-body" style="text-decoration:none;"><h4>'Ahora nos escuchan y están dejando a un lado la indisciplina’</h4></a>
-                            <span>El propósito es salvar vidas, es por eso que se han entregado más de 1’500.000 de tapabocas.</span>
-                            <hr>
-                        </div>
-                        <div class="noticias">
-                            <h6><a href="#" class="text-dark">Tecnología</a><small> 10:32</small></h6>
-                            <a href="#" class="text-body" style="text-decoration:none;"><h4>Política de espectro al 2024 quiere agilizar asignaciones</h4></a>
-                            <span>La Agencia Nacional del Espectro presentó su propuesta para alinearse a esfuerzos del Mintic.</span>
-                            <hr>
-                        </div>
-                        <div class="noticias">
-                            <h6><a href="#" class="text-dark">Internacional</a><small> 12:29</small></h6>
-                            <a href="#" class="text-body" style="text-decoration:none;"><h4>Últimas noticias sobre el coronavirus en el mundo</h4></a>
-                            <span>En las últimas horas, el planeta superó los 13 millones de contagios por covid-19.</span>
-                            <hr>
-                        </div>
-                        <div class="noticias">
-                            <h6><a href="#" class="text-dark">Anuncio Patrocinado</a><small> 9:54</small></h6>
-                            <a href="#" class="text-body" style="text-decoration:none;"><h4>Tapabocas N95 por Wabbu</h4></a>
-                            <span>La mejor innovación y calidad.</span>
-                            <hr>
-                        </div> 
-                    </div>
-                </div>
-            </div>
+    <main class="bg-ligth">
+        <div class="jumbotron text-center" style="background-image: url(../assets/imgs/Fondo-Vacuna.jpg); background-size: cover;">
+            <h1 class="display-4 text-dark mt-2 font-weight-bolder">Últimos Avances</h1>
+            <p class="lead text-dark">En esta sección encontraras los últimos avances entorno a la elaboración de la vacuna contra el Covid-19.</p>
+            <hr class="my-4 separador">
+            <p></p>
+            <a class="btn btn-dark btn-lg" href="#" role="button">Enterate Más con CoronaWeb</a>
         </div>
         <div class="container ruta">
             <nav aria-label="breadcrumb">
                 <ol class="breadcrumb breadcrumb-dividers-label shadow bg-dark">
                   <li class="breadcrumb-item"><a href="#" class="text-white">Corona Web</a></li>
                   <li class="breadcrumb-item"><a href="./index.html" class="text-white">Principal</a></li>
-                  <li class="breadcrumb-item"><a href="./estadisticas.html" class="text-white">Noticias</a></li>
+                  <li class="breadcrumb-item"><a href="./avances.html" class="text-white">Avances</a></li>
                 </ol>
             </nav>
         </div>
-        <div class="container">
-            <div class="d-flex flex-wrap justify-content-center ml-4">
-                <div class="col-sm-4 mt-4">
-                    <div class="card" style="width: 18rem;">
-                        <img src="./assets/imgs/Card1.jpg" class="card-img-top" alt="Causante Covid" width="100px" height="150px">
-                        <div class="card-body">
-                          <h5 class="card-title"><b>Salud</b><small class="ml-2"> John Kinnear</small></h5>
-                          <p class="card-text text-justify">Qué se sabe del daño que el covid-19 puede causar en los pacientes asintomáticos.</p>
-                          <div class="d-flex justify-content-between align-items-center">
-                            <a href="https://www.bbc.com/mundo/noticias-53403871" class="btn btn-dark">Ver más</a>
-                            <small class="text-muted">9 mins</small>
-                          </div>
+        <div class="container mt-4">
+            <nav>
+                <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                    <a class="nav-item nav-link active text-dark" id="nav-biotech-tab" data-toggle="tab" href="#nav-biotech" role="tab" aria-controls="nav-biotech" aria-selected="true">Vacuna - BioNTech</a>
+                    <a class="nav-item nav-link text-dark" id="nav-johnson-tab" data-toggle="tab" href="#nav-johnson" role="tab" aria-controls="nav-johnson" aria-selected="false">Vacuna - Johnson & Johnson</a>
+                    <a class="nav-item nav-link text-dark" id="nav-cansino-tab" data-toggle="tab" href="#nav-cansino" role="tab" aria-controls="nav-cansino" aria-selected="false">Vacuna - CanSino</a>
+                    <a class="nav-item nav-link text-dark" id="nav-inovio-tab" data-toggle="tab" href="#nav-inovio" role="tab" aria-controls="nav-inovio" aria-selected="false">Vacuna - Inovio</a>
+                </div>
+            </nav>
+            <div class="tab-content" id="nav-tabContent">
+                <div class="tab-pane fade show active mt-3" id="nav-biotech" role="tabpanel" aria-labelledby="nav-biotech-tab">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="d-flex flex-row justify-content-between align-items-end">
+                                <div>
+                                    <h5>Covid-19<span class="badge badge-dark ml-2">Nuevo</span></h5>
+                                    <h3>BioNTech desarrolla Vacuna contra el Covid-19</h3>
+                                </div>
+                                <div>
+                                    <a href="#" class="text-dark"><span>Unidad Cientifica</span></a>
+                                </div>
+                            </div>
+                            <div class="mt-1">
+                                <img src="./assets/imgs/Vacuna1.jpg"  class="img-fluid rounded" alt="Responsive image">
+                            </div>
+                            <div class="alert alert-dark mt-3" role="alert">
+                                Enterate en que fase va el desarrollo de la vacuna.<a href="#" class="alert-link" style="text-decoration: none;"> Haz click aquí!</a>
+                            </div>
+                            <div>
+                                <div class="mb-3">
+                                    <h4 class="text-justify">La vacuna que BioNTech está desarrollando utiliza tecnología experimental conocida como ARN mensajero</h4>
+                                    <span class="badge badge-dark" style="border: 1px solid #343a40;">Salud</span>
+                                    <span class="badge badge-secondary" style="border: 1px solid #343a40;">Innovación</span>
+                                    <span class="badge badge-light" style="border: 1px solid #343a40;">Tecnología</span>
+                                </div>
+                                <p class="lead text-justify">La firma alemana de biotecnología que se asoció con Pfizer Inc. para desarrollar una vacuna contra el coronavirus confía en que estará lista para obtener la aprobación reguladora para fin de año, según su director ejecutivo.</p>
+                                <p class="lead text-justify">Se podrían producir varios cientos de millones de dosis incluso antes de la aprobación, y más de 1.000 millones para fines de 2021, dijo el cofundador y CEO de BioNTech SE, Dr. Ugur Sahin, a The Wall Street Journal.</p>
+                                <p class="lead text-justify">BioNTech, originalmente una compañía de biotecnología para el tratamiento del cáncer, es una de las 17 empresas en todo el mundo que han comenzado ensayos en humanos con una vacuna contra Covid-19. La compañía, con sede en la ciudad de Mainz y que cotiza en la bolsa de valores Nasdaq, fue fundada en 2008 por el Dr. Sahin y su esposa, el Dr. Özlem Türeci, ambos hijos de inmigrantes turcos.</p>
+                                <p class="lead text-justify">La vacuna que BioNTech está desarrollando utiliza tecnología experimental conocida como ARN mensajero o ARNm. En espera de la aprobación de las autoridades, BioNTech espera comenzar la etapa final del proceso de prueba, conocido como ensayos de Fase 3, a fines de julio. Estos verían a 30.000 personas participar en un estudio aleatorizado de la vacuna que se espera que se complete para fin de año, cuando la compañía buscaría la aprobación del mercado de los reguladores de todo el mundo.</p>
+                                <a href="https://www.larepublica.co/globoeconomia/biotech-alemana-ve-su-vacuna-de-covid-19-lista-para-su-aprobacion-en-diciembre-3029447" class="text-dark" style="text-decoration:none;"><span>ver mas</span></a>
+                            </div>
+                            <div class="mt-3">
+                                <h3>Progreso Vacuna en Tiempo Real</h3>
+                                <div class="progress mt-3">
+                                    <div class="progress-bar progress-bar-striped progress-bar-animated bg-dark" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%"></div>
+                                </div>
+                                <small class="text-dark">La vacuna se encuntra en un 75% de desarrollo.</small>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-4 mt-4">
-                    <div class="card" style="width: 18rem;">
-                        <img src="./assets/imgs/Card2.jpg" class="card-img-top" alt="Covid" width="100px" height="150px">
-                        <div class="card-body">
-                          <h5 class="card-title"><b>Política</b><small class="ml-2"> Jack Goodman</small></h5>
-                          <p class="card-text text-justify">Los medicamentos sin eficacia probada contra el coronavirus que se promueven en América Latina.</p>
-                          <div class="d-flex justify-content-between align-items-center">
-                            <a href="https://www.bbc.com/mundo/noticias-53403871" class="btn btn-dark">Ver más</a>
-                            <small class="text-muted">13 mins</small>
-                          </div>
+                <div class="tab-pane fade mt-3" id="nav-johnson" role="tabpanel" aria-labelledby="nav-johnson-tab">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="d-flex flex-row justify-content-between align-items-end">
+                                <div>
+                                    <h5>Covid-19<span class="badge badge-dark ml-2">Nuevo</span></h5>
+                                    <h3>Johnson & Johnson desarrolla Vacuna contra el Covid-19</h3>
+                                </div>
+                                <div>
+                                    <a href="#" class="text-dark"><span>Unidad Cientifica</span></a>
+                                </div>
+                            </div>
+                            <div class="mt-1">
+                                <img src="./assets/imgs/Vacuna2.jpeg"  class="img-fluid rounded" alt="Responsive image" width="100%">
+                            </div>
+                            <div class="alert alert-dark mt-3" role="alert">
+                                Enterate en que fase va el desarrollo de la vacuna.<a href="#" class="alert-link" style="text-decoration: none;"> Haz click aquí!</a>
+                            </div>
+                            <div>
+                                <div class="mb-3">
+                                    <h4 class="text-justify">Johnson & Johnson revela detalles de su vacuna contra el Coronavirus</h4>
+                                    <span class="badge badge-dark" style="border: 1px solid #343a40;">Salud</span>
+                                    <span class="badge badge-secondary" style="border: 1px solid #343a40;">Innovación</span>
+                                    <span class="badge badge-light" style="border: 1px solid #343a40;">Tecnología</span>
+                                </div>
+                                <p class="lead text-justify">El vicepresidente de Asuntos Médicos para Janssen Latam, Josue Bacaltchuk, reveló a Dinero detalles acerca de la vacuna que está desarrollando esa firma —propiedad de Johnson & Johnson (J&J)— contra el coronavirus, así como de los primeros ensayos en humanos.</p>
+                                <p class="lead text-justify">Según el recuento de la Universidad Johns Hopkins hasta la noche de ayer martes se contabilizaban en el mundo 8,1 millones de contagios y 440.600 muertes a causa de la pandemia de coronavirus, para la cual aún no existe una cura comprobada.</p>
+                                <p class="lead text-justify">Josue Bacaltchuk: Continuando con nuestra promesa de trabajar bajo un cronograma acelerado, el 10 de junio anunciamos que la fase 1/2a del ensayo clínico, es decir, el ensayo en humanos, que estaba programada para septiembre, iniciará a mediados de julio. Hemos acelerado este proceso basados en la contundencia de los datos preclínicos obtenidos y a las interacciones con las autoridades reguladoras. Esperamos que los primeros datos clínicos de seguridad e inmunogenicidad estén disponibles a finales de este año (2020). Esto podría permitir que la vacuna esté disponible para uso de emergencia a principios de 2021.</p>
+                                <p class="lead text-justify">Estamos frente a una pandemia; en este contexto, estamos movilizando todos los recursos necesarios para obtener una vacuna segura y efectiva lo más rápido posible, pero respetando los tiempos y etapas de investigación necesarias para garantizar la seguridad de los pacientes.</p>
+                                <a href="https://www.dinero.com/empresas/articulo/vacuna-contra-el-coronavirus-de-johnson--johnson/289836" class="text-dark" style="text-decoration:none;"><span>ver mas</span></a>
+                            </div>
+                            <div class="mt-3">
+                                <h3>Progreso Vacuna en Tiempo Real</h3>
+                                <div class="progress mt-3">
+                                    <div class="progress-bar progress-bar-striped bg-info bg-dark" role="progressbar" style="width: 43%" aria-valuenow="43" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                                <small class="text-dark">La vacuna se encuntra en un 43% de desarrollo.</small>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-4 mt-4">
-                    <div class="card" style="width: 18rem;">
-                        <img src="./assets/imgs/Card3.jpg" class="card-img-top" alt="contagios" width="100px" height="150px">
-                        <div class="card-body">
-                          <h5 class="card-title"><b>Internacional</b><small class="ml-2"> Lioman Lima</small></h5>
-                          <p class="card-text text-justify">4 motivos de preocupación en Miami, el nuevo epicentro de la pandemia de coronavirus en EE.UU.</p>
-                          <div class="d-flex justify-content-between align-items-center">
-                            <a href="https://www.bbc.com/mundo/noticias-internacional-53358346" class="btn btn-dark">Ver más</a>
-                            <small class="text-muted">30 mins</small>
-                          </div>
+                <div class="tab-pane fade mt-3" id="nav-cansino" role="tabpanel" aria-labelledby="nav-cansino-tab">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="d-flex flex-row justify-content-between align-items-end">
+                                <div>
+                                    <h5>Covid-19<span class="badge badge-dark ml-2">Nuevo</span></h5>
+                                    <h3>CanSino desarrolla Vacuna contra el Covid-19</h3>
+                                </div>
+                                <div>
+                                    <a href="#" class="text-dark"><span>Unidad Cientifica</span></a>
+                                </div>
+                            </div>
+                            <div class="mt-1">
+                                <img src="./assets/imgs/Vacuna3.jpg"  class="img-fluid rounded" alt="Responsive image" width="100%">
+                            </div>
+                            <div class="alert alert-dark mt-3" role="alert">
+                                Enterate en que fase va el desarrollo de la vacuna.<a href="#" class="alert-link" style="text-decoration: none;"> Haz click aquí!</a>
+                            </div>
+                            <div>
+                                <div class="mb-3">
+                                    <h4 class="text-justify">China aprueba vacuna experimental de CanSino contra el COVID-19 para su uso en militares</h4>
+                                    <span class="badge badge-dark" style="border: 1px solid #343a40;">Salud</span>
+                                    <span class="badge badge-secondary" style="border: 1px solid #343a40;">Innovación</span>
+                                    <span class="badge badge-light" style="border: 1px solid #343a40;">Tecnología</span>
+                                </div>
+                                <p class="lead text-justify">El gobierno chino aprobó el uso de una vacuna experimental contra el COVID-19 para las Fuerzas Armadas del país, el paso más reciente en una carrera mundial para detener la enfermedad.</p>
+                                <p class="lead text-justify">La vacuna, conocida como Ad5-nCoV, fue desarrollada conjuntamente por el Instituto de Biotecnología de Beijing, parte de la Academia de Ciencias Médicas Militares del gobierno chino, y la compañía de vacunas CanSino Biologics.</p>
+                                <p class="lead text-justify">En una declaración a la Bolsa de Valores de Hong Kong el lunes, CanSino anunció que la Comisión Militar Central de China había otorgado a la vacuna una “aprobación de medicamentos militares especialmente necesarios” el 25 de junio. El permiso especial durará un año y solo se aplicará a personal militar.</p>
+                                <p class="lead text-justify">China ha insistido reiteradamente en que sus Fuerzas Armadas no se ha visto afectado por la pandemia, y los funcionarios afirman que el Ejército Popular de Liberación (EPL) no ha registrado un solo caso de coronavirus.</p>
+                                <p class="lead text-justify">Sin embargo, observadores estadounidenses han puesto en duda las afirmaciones, señalando que el EPL es uno de los ejércitos permanentes más grandes del mundo, por lo que es estadísticamente improbable que su personal no haya estado expuesto al virus.</p>
+                                <a href="https://www.cnnchile.com/mundo/china-vacuna-experimental-uso-militares_20200701/" class="text-dark" style="text-decoration:none;"><span>ver mas</span></a>
+                            </div>
+                            <div class="mt-3">
+                                <h3>Progreso Vacuna en Tiempo Real</h3>
+                                <div class="progress mt-3">
+                                    <div class="progress-bar progress-bar-striped bg-info bg-dark" role="progressbar" style="width: 82%" aria-valuenow="82" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                                <small class="text-dark">La vacuna se encuntra en un 82% de desarrollo.</small>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-4 mt-5">
-                    <div class="card" style="width: 18rem;">
-                        <img src="./assets/imgs/Card4.jpg" class="card-img-top" alt="tecnología" width="100px" height="150px">
-                        <div class="card-body">
-                          <h5 class="card-title"><b>Tecnología</b><small class="ml-2"> Leo Kelion</small></h5>
-                          <p class="card-text text-justify">Adiós a Intel y otras 8 novedades anunciadas por Apple Company en wwdc respecto al Covid-19.</p>
-                          <div class="d-flex justify-content-between align-items-center">
-                            <a href="https://www.bbc.com/mundo/noticias-53145607" class="btn btn-dark">Ver más</a>
-                            <small class="text-muted">48 mins</small>
-                          </div>
+                <div class="tab-pane fade mt-3" id="nav-inovio" role="tabpanel" aria-labelledby="nav-inovio-tab">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="d-flex flex-row justify-content-between align-items-end">
+                                <div>
+                                    <h5>Covid-19<span class="badge badge-dark ml-2">Nuevo</span></h5>
+                                    <h3>Inovio desarrolla Vacuna contra el Covid-19</h3>
+                                </div>
+                                <div>
+                                    <a href="#" class="text-dark"><span>Unidad Cientifica</span></a>
+                                </div>
+                            </div>
+                            <div class="mt-1">
+                                <img src="./assets/imgs/Vacuna4.jpeg"  class="img-fluid rounded" alt="Responsive image" width="100%">
+                            </div>
+                            <div class="alert alert-dark mt-3" role="alert">
+                                Enterate en que fase va el desarrollo de la vacuna.<a href="#" class="alert-link" style="text-decoration: none;"> Haz click aquí!</a>
+                            </div>
+                            <div>
+                                <div class="mb-3">
+                                    <h4 class="text-justify">La vacuna covid-19 de Inovio parece segura, pero es demasiado pronto para saber si funciona</h4>
+                                    <span class="badge badge-dark" style="border: 1px solid #343a40;">Salud</span>
+                                    <span class="badge badge-secondary" style="border: 1px solid #343a40;">Innovación</span>
+                                    <span class="badge badge-light" style="border: 1px solid #343a40;">Tecnología</span>
+                                </div>
+                                <p class="lead text-justify">Inovio Pharmaceuticals anunció el martes que su vacuna experimental covid-19 es segura y desencadenó respuestas inmunes en casi todos los participantes de un ensayo clínico en curso.</p>
+                                <p class="lead text-justify">Un total de 40 adultos sanos recibieron dos dosis de la vacuna durante un período de ocho semanas. Ninguno informó de efectos secundarios graves. La reacción más común fue un poco de enrojecimiento alrededor del lugar de la inyección.</p>
+                                <p class="lead text-justify">“Espero que la gente pueda ver que hay una luz al final del túnel”, dijo Kate Broderick, vicepresidenta senior de investigación y desarrollo de Inovio. “Realmente me anima que sea posible crear una vacuna efectiva para covid”.</p>
+                                <p class="lead text-justify">La compañía también informó de que 34 de los 36 participantes montaron lo que llamó una respuesta inmunológica general a la vacuna.</p>
+                                <p class="lead text-justify">“Nos complació ver una tasa de respuesta tan alta, que puede ser indicativa de la utilidad clínica”, escribieron los analistas de investigación de la firma de inversiones Cantor Fitzgerald.</p>
+                                <a href="https://www.sandiegouniontribune.com/en-espanol/noticias/san-diego/articulo/2020-07-01/la-vacuna-covid-19-de-inovio-parece-segura-pero-es-demasiado-pronto-para-saber-si-funciona" class="text-dark" style="text-decoration:none;"><span>ver mas</span></a>
+                            </div>
+                            <div class="mt-3">
+                                <h3>Progreso Vacuna en Tiempo Real</h3>
+                                <div class="progress mt-3">
+                                    <div class="progress-bar progress-bar-striped bg-info bg-dark" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                                <small class="text-dark">La vacuna se encuntra en un 90% de desarrollo.</small>
+                            </div>
                         </div>
-                    </div>
-                </div>
-                <div class="col-sm-4 mt-5">
-                    <div class="card" style="width: 18rem;">
-                        <img src="./assets/imgs/Card5.jpg" class="card-img-top" alt="cultura" width="100px" height="150px">
-                        <div class="card-body">
-                          <h5 class="card-title"><b>Cultura</b><small class="ml-2"> Sophie Hardach</small></h5>
-                          <p class="card-text text-justify">Banksy regresa al metro de Londres inspirado por el coronavirus con su nueva obra.</p>
-                          <div class="d-flex justify-content-between align-items-center">
-                            <a href="https://www.bbc.com/mundo/noticias-53412897" class="btn btn-dark">Ver más</a>
-                            <small class="text-muted">57 mins</small>
-                          </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-4 mt-5">
-                    <div class="card" style="width: 18rem;">
-                        <img src="./assets/imgs/Card6.jpg" class="card-img-top" alt="Economía" width="100px" height="150px">
-                        <div class="card-body">
-                          <h5 class="card-title"><b>Economía</b><small class="ml-2"> Cristina J. Orgaz</small></h5>
-                          <p class="card-text text-justify">Los ultrarricos que piden a sus gobiernos pagar más impuestos por la crisis de coronavirus.</p>
-                          <div class="d-flex justify-content-between align-items-center">
-                            <a href="https://www.bbc.com/mundo/noticias-53407050" class="btn btn-dark">Ver Más</a>
-                            <small class="text-muted">72 mins</small>
-                          </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="container d-flex justify-content-center mt-4">
-                <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
-                    <div class="btn-group mr-2" role="group" aria-label="First group">
-                        <button type="button" class="btn btn-dark">Principal</button>
-                        <button type="button" class="btn btn-dark">2</button>
-                        <button type="button" class="btn btn-dark">3</button>
-                        <button type="button" class="btn btn-dark">4</button>
-                        <button type="button" class="btn btn-dark">5</button>
-                        <button type="button" class="btn btn-dark">6</button>
-                        <button type="button" class="btn btn-dark">7</button>
-                        <button type="button" class="btn btn-dark">8</button>
-                        <button type="button" class="btn btn-dark">Ver Más</button>
                     </div>
                 </div>
             </div>
         </div>
     </main>
-     <!--Pie de pagina con la secciones de contacto y redes sociales-->
-     <footer class="bg-dark piePagina mt-4">
+      
+    <!--Pie de pagina con la secciones de contacto y redes sociales-->
+    <footer class="bg-dark piePagina mt-4">
         <div class="container">
             <div class="row d-flex justify-content-between align-items-center">
                 <div class="col-6 d-flex flex-column mt-5">
