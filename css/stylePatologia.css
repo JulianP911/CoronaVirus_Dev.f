@@ -7,6 +7,16 @@
     margin-left: -10px;
 }
 
+.jumbotron{
+    margin-top: 58px;
+    font-family: 'Hind Siliguri', sans-serif;
+    color: #343a40 !important; 
+}
+
+.separador{
+    border: 1.2px solid #343a40;
+}
+
 .piePagina{
     height: 130px;
 }

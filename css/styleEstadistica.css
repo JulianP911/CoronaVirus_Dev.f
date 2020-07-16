@@ -7,18 +7,18 @@
     margin-left: -10px;
 }
 
-.contenido{
-    margin-top: 85px;
+.piePagina{
+    height: 130px;
 }
 
-body{
-    font-family: 'Hind Siliguri', sans-serif;
+.contenido{
+    margin-top: 85px;
 }
 
 .titulos{
     letter-spacing: 2px;
 }
 
-.piePagina{
-    height: 130px;
+table{
+    font-family: 'Hind Siliguri', sans-serif;
 }
