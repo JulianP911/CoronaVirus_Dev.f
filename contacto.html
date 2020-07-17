@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="./css/styleContacto.css">
     <!--Font Awesome-->
     <script defer src="https://pro.fontawesome.com/releases/v5.10.0/js/all.js" integrity="sha384-G/ZR3ntz68JZrH4pfPJyRbjW+c0+ojii5f+GYiYwldYU69A+Ejat6yIfLSxljXxD" crossorigin="anonymous"></script>
+    <!--Favicon pagina web-->
+    <link rel="shortcut icon" href="./assets/imgs/Favicon-Coronavirus.png" type="image/png">
     <title>CoronaWeb Contacto</title>
 </head>
 <body class="bg-light">
@@ -130,7 +132,8 @@
                         <label class="form-check-label" for="terminos">Acepta terminos y condiciones de CoronaWeb</label>
                     </div>
                 </div>
-                <button type="submit" class="btn btn-dark">Enviar Información</button>
+                <button type="submit" class="btn btn-dark" onclick="setTimeout(enviar(), 15000)">Enviar Información</button>
+                <span id="enviar"></span>
             </form>
         </div>
     </main>
@@ -161,6 +164,7 @@
             </div>
         </div>
     </footer>
+    <script src="./js/contacto.js"></script>
     <!--Opcional JavaScript-->
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
     <script src="node_modules/popper.js/dist/popper.min.js"></script>
